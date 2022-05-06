@@ -40,7 +40,7 @@ function App() {
   return (
     <section>
       <div className="section-title">
-        <h1>{loading ? 'loading...' : 'Git Followers'}</h1>
+        <h1>{loading ? 'loading...' : 'GitHub Followers'}</h1>
         <div className="underline"></div>
       </div>
       {!loading && (
